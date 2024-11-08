@@ -13,6 +13,7 @@ SafeSpace is a multi-layered industrial safety system designed to enhance workpl
 - Fall & Unconsciousness Detection: Uses motion analysis to detect incidents, alerting emergency personnel for quick intervention.
 
 ### Basic Architecture
+![image](https://github.com/user-attachments/assets/016208ed-356f-49d5-991f-7f22bfceada9)
 
 
 ### Why AI & IoT?
