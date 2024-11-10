@@ -94,6 +94,19 @@ SafeSpace/
 └── README.md             # Project documentation
 ```
 
+### Special Track: Interactive Features 🛠️
+ - **MongoDB for Data Logging and Analysis** 📊:
+    MongoDB plays a central role in SafeSpace by storing all logged safety events, sensor data, and environmental readings. Every incident, whether it's an alert for missing PPE or hazardous conditions, is recorded as a document in MongoDB. This setup allows for easy querying, aggregating, and analyzing data over time, which can be essential for understanding safety trends, evaluating compliance, and enhancing safety protocols. MongoDB’s flexibility and scalability make it ideal for SafeSpace's diverse data requirements.
+
+
+ - **Gemini API for Real-Time Voice Integration** 🗣️:
+The Gemini API is used in SafeSpace to enhance voice-based interactions. It identifies whether a worker is compliant with PPE requirements, such as helmet detection, and communicates immediate feedback. If a worker is missing PPE, Gemini provides a real-time voice alert, instructing them to take corrective action. This audio integration fosters a proactive safety culture, with instant auditory feedback ensuring that PPE requirements are followed consistently.
+
+
+ - **GitHub Pages (Github.io) for Accessible Dashboard Deployment** 📈:
+SafeSpace's dashboard is deployed on GitHub Pages, using Github.io as the hosting platform. By leveraging GitHub Pages, we provide a readily accessible dashboard with minimal deployment complexity and zero downtime. The platform ensures that the dashboard is always accessible from any device, allowing managers and workers to view safety metrics, track alerts, and respond quickly to incidents. This setup also enables open collaboration, where updates can be managed easily through the GitHub repository.
+
+
 ### Why AI & IoT? 🤖🌐
 Incorporating AI and IoT technologies into SafeSpace allows for real-time monitoring and a proactive safety approach. AI enables automatic hazard detection, PPE compliance verification, and alert generation, while IoT sensors provide continuous, real-time data on environmental conditions. This combination not only enhances situational awareness but also speeds up response times and ensures that the workplace remains as safe as possible. SafeSpace is not just a monitoring system; it’s a smart, interconnected platform designed to prevent accidents before they occur. 🛠️⚡
 
