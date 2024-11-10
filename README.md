@@ -70,7 +70,7 @@ Processed data is visualized on an interactive dashboard, providing real-time in
   - React Native (Cross-platform mobile app development)
 
 ### Directory Structure
-
+```
 SafeSpace/
 ├── App/
 |   ├── MyApp/           # React Native expo
@@ -92,6 +92,7 @@ SafeSpace/
 │   ├── public/          
 │   └── package.json      
 └── README.md             # Project documentation
+```
 
 ### Why AI & IoT? 🤖🌐
 Incorporating AI and IoT technologies into SafeSpace allows for real-time monitoring and a proactive safety approach. AI enables automatic hazard detection, PPE compliance verification, and alert generation, while IoT sensors provide continuous, real-time data on environmental conditions. This combination not only enhances situational awareness but also speeds up response times and ensures that the workplace remains as safe as possible. SafeSpace is not just a monitoring system; it’s a smart, interconnected platform designed to prevent accidents before they occur. 🛠️⚡
