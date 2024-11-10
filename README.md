@@ -15,6 +15,9 @@ SafeSpace is a cutting-edge industrial safety system designed to revolutionize w
 ### Architecture 🌐
 ![image](https://github.com/user-attachments/assets/b1209c8b-d2df-490e-9b99-f0831b55eff2)
 
+### Video Demo
+https://youtu.be/ClPK6ac-RXc?si=2f1PcR-8YJM3rDQH
+
 
 ### Solution Overview 🔧
 SafeSpace integrates multiple components to ensure comprehensive safety monitoring:
@@ -65,6 +68,30 @@ Processed data is visualized on an interactive dashboard, providing real-time in
 
 - Mobile App:
   - React Native (Cross-platform mobile app development)
+
+### Directory Structure
+
+SafeSpace/
+├── App/
+|   ├── MyApp/           # React Native expo
+|   └──  main.py         # Alert detection
+|
+├── server/               # Backend server code
+|   └── app/
+│       ├── controllers/      # API Controllers
+│       ├── routes/           # API Routes
+│       ├── models/           # Database Models
+│       ├── helper/           # Helper Files
+│       └── main.py           # Server & Model entry point 
+├── kiosk_frontend/       # Kiosk application 
+│   ├── src/              
+│   ├── public/
+│   └── package.json      
+├── dashboard_frontend/   # Dashboard application 
+│   ├── src/              
+│   ├── public/          
+│   └── package.json      
+└── README.md             # Project documentation
 
 ### Why AI & IoT? 🤖🌐
 Incorporating AI and IoT technologies into SafeSpace allows for real-time monitoring and a proactive safety approach. AI enables automatic hazard detection, PPE compliance verification, and alert generation, while IoT sensors provide continuous, real-time data on environmental conditions. This combination not only enhances situational awareness but also speeds up response times and ensures that the workplace remains as safe as possible. SafeSpace is not just a monitoring system; it’s a smart, interconnected platform designed to prevent accidents before they occur. 🛠️⚡
